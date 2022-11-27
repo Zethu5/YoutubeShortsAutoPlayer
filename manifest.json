@@ -1,0 +1,19 @@
+{
+    "name": "Youtube Shorts Auto Player",
+    "description": "Auto plays youtube shorts",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "Zethus",
+    "background": {
+        "service_worker": "script.js"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "activeTab"
+    ],
+    "action": {},
+    "icons": {
+        "128": "started_player_icon128.png"
+      }
+}
